@@ -9,6 +9,5 @@ First Clone the project. You can use multiple options
 - To clone a repository using GitHub CLI, click GitHub CLI.
 Clone using HTTPS-
 ```
-cd existing_repo
-git clone
+git clone https://github.com/murad0cs/FamilyInfromationSystemApp.git
 ```
