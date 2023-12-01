@@ -18,7 +18,7 @@ git clone https://github.com/murad0cs/FamilyInfromationSystemApp.git
 ```
 ## Application Setup and Run Documentation
 ### Prerequisites
-1. **Java Development Kit (JDK):**Ensure that you have Java JDK installed on your machine. You can download it from [Oracle](https://www.oracle.com/java/technologies/downloads/) or use [OpenJDK](https://www.oracle.com/java/technologies/downloads/).
+1. *Java Development Kit (JDK):* Ensure that you have Java JDK installed on your machine. You can download it from [Oracle](https://www.oracle.com/java/technologies/downloads/) or use [OpenJDK](https://www.oracle.com/java/technologies/downloads/).
 2. **Integrated Development Environment (IDE):** Install an IDE of your choice, such as [Eclipse](https://www.eclipse.org/ide/) or [IntelliJ IDEA](https://www.jetbrains.com/idea/). ( IntelliJ IDEA preferable)
 3. **Maven:** Make sure Maven is installed. You can download it from [Maven official website](https://maven.apache.org/).
 
