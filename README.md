@@ -25,11 +25,18 @@ git clone https://github.com/murad0cs/FamilyInfromationSystemApp.git
 ## Application Configuration
 1. **Database Configuration**: Open application.properties file in your project and configure the database connection properties. Example:
    ```
-    spring.datasource.url=jdbc:h2:mem:testdb
+    spring.datasource.url=jdbc:h2:mem:userappdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MYSQL;NON_KEYWORDS=USER
     spring.datasource.driverClassName=org.h2.Driver
     spring.datasource.username=sa
-    spring.datasource.password=password
-    spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+    spring.datasource.password=
+    
+    spring.jpa.show-sql=true
+    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
+    spring.jpa.hibernate.ddl-auto= update
+    spring.h2.console.enabled=true
+    spring.jpa.properties.hibernate.globally_quoted_identifiers=true
+    # default path: h2-console
+    spring.h2.console.path=/h2-ui
    ```
    Adjust these settings based on your database.
 ## Running the Application Locally
